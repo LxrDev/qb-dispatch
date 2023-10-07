@@ -6,8 +6,8 @@ discord.gg/R9KgyCkXJp
 
 Requirements :
 
-qb-core
-qb-policejob
+1. qb-core
+2. qb-policejob
 
 ------------------------------
 
