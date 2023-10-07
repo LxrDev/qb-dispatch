@@ -23,7 +23,6 @@ ui_page 'ui/ui.html'
 files {
     'ui/ui.html',
     'ui/css/main.css',
-    'ui/js/app.js',
-    'ui/assets/*.svg'
+    'ui/js/app.js'
 }
 server_scripts { '@oxmysql/lib/MySQL.lua' }
