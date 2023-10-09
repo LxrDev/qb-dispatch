@@ -381,11 +381,11 @@ print('Script By Lxr Dev discord.gg/R9KgyCkXJp')
 ---- Suggestion and KeyMapping ----
 -----------------------------------
 
-RegisterKeyMapping(Config.CommandShow.command, Config.CommandShow.description, 'keyboard', 'K')
+RegisterKeyMapping(Config.CommandShow.command, Config.CommandShow.description, 'keyboard', 'U')
 
 RegisterKeyMapping("rightdisp", LC['rightdisp'], 'keyboard', 'RIGHT')
 RegisterKeyMapping("leftdisp", (LC['leftdisp']), 'keyboard', 'LEFT')
-RegisterKeyMapping("enterdisp", (LC['enterdisp']), 'keyboard', 'RETURN')
+RegisterKeyMapping("enterdisp", (LC['enterdisp']), 'keyboard', 'G')
 
 TriggerEvent("chat:addSuggestion", "/" .. Config.VehicleRob.command, (Config.VehicleRob.description))
 TriggerEvent("chat:addSuggestion", "/" .. Config.CommandShow.command, (Config.CommandShow.description))
